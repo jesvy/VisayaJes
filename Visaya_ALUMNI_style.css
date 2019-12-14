@@ -1,0 +1,107 @@
+
+ body{
+    background-image: url("BG.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .Logo{
+     
+    color: rgb(226,226,226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.side-header{
+	width: 22%;
+	height: 99.1%; 
+	position: absolute;
+	top: 0;
+    background: linear-gradient(to top, pink, fuchsia );
+}
+
+.background{
+	width: 300px;
+	height: 300px;
+	
+
+}
+
+.bg{
+	opacity: 0.9;
+	width: 300px;
+	height:200px;
+}
+
+.user{
+	width: 250px;
+	height: 150px;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+}
+
+
+.avatar{
+	width: 80px;
+	height: 80px;
+	display: block;
+}
+
+.menu-bar{
+    display: flex;
+   justify-content: space-around;
+    min-height: 8vh;
+    color: black;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+}
+
+
+
+.menu-bar li{
+list-style-type: none;
+
+}
+
+.menu-bar ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    }
+
+
+.menu-bar ul li:hover{
+	background-color: pink;
+}
+.hrs{
+	color: black;
+}
+.text-1{
+	margin: 0 25% 0 0;
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size:  20px;
+	font-family: Roboto;
+	
+	cursor: pointer;
+}
+.box1{
+	width: 70%;
+	height: 500px;
+	margin: 1% 0 0 0;
+	background-color: pink;
+
+}
+.container{
+	width: 77%;
+	height:200px;
+	margin: 0 0 0 22.5%;
+	display: flex;
+}
+.discussion{
+	font-weight: 500;
+    font: 30px Roboto,sans-serif;
+    
+}
